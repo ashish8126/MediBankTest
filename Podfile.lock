@@ -1,0 +1,16 @@
+PODS:
+  - SwiftCoordinator (0.2.0)
+
+DEPENDENCIES:
+  - SwiftCoordinator
+
+SPEC REPOS:
+  trunk:
+    - SwiftCoordinator
+
+SPEC CHECKSUMS:
+  SwiftCoordinator: ba00cc52398e10fdb3df8e0726660b3fddad4e68
+
+PODFILE CHECKSUM: b09fbbe99b24b5492bfd5bb57bd2952e7d3d7397
+
+COCOAPODS: 1.12.1

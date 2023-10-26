@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "054395D3-FE39-452C-88F0-F5213B35573B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "439A5615-89F2-41E2-BC53-BC85286AEA25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/Networking/DataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "retrieveArticle()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD4286EF-DADD-4786-B736-06A4495441A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/ViewModels/HeadingListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getDataFromServer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D47CA4D9-2C02-4989-B743-63DC35C5A516"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/ViewModels/HeadingListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getDataFromServer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D47CA4D9-2C02-4989-B743-63DC35C5A516 - 8a4fcc83dddc120f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MediBankTest.ArticlesData, Swift.Error&gt;) -&gt; () in MediBankTest.HeadingListViewModel.getDataFromServer() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "D47CA4D9-2C02-4989-B743-63DC35C5A516 - 8a4fcc83dddc120f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MediBankTest.ArticlesData, Swift.Error&gt;) -&gt; () in MediBankTest.HeadingListViewModel.getDataFromServer() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "D47CA4D9-2C02-4989-B743-63DC35C5A516 - 8a4fcc83dddc122e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MediBankTest.ArticlesData, Swift.Error&gt;) -&gt; () in MediBankTest.HeadingListViewModel.getDataFromServer() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "D47CA4D9-2C02-4989-B743-63DC35C5A516 - e86674f936197bca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSManagedObjectContext) -&gt; () in closure #1 (Swift.Result&lt;MediBankTest.ArticlesData, Swift.Error&gt;) -&gt; () in MediBankTest.HeadingListViewModel.getDataFromServer() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C2991FC-7C13-4B03-894C-182371E9415C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/ViewModels/HeadingListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C2991FC-7C13-4B03-894C-182371E9415C - df11021408742950"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediBankTest.HeadingListViewModel.getData() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "4C2991FC-7C13-4B03-894C-182371E9415C - df110214087428e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediBankTest.HeadingListViewModel.getData() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "4C2991FC-7C13-4B03-894C-182371E9415C - df11021408742f40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediBankTest.HeadingListViewModel.getData() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0185F094-4F45-4280-87B8-6614691846BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/ViewModels/HeadingListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0185F094-4F45-4280-87B8-6614691846BC - df11021408742a92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediBankTest.HeadingListViewModel.getData() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "0185F094-4F45-4280-87B8-6614691846BC - df11021408742867"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediBankTest.HeadingListViewModel.getData() -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A688FD6A-8F32-4EC6-BAD5-ECDF913C6986"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/ViewModels/HeadingListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "getSelectedArticles(list:shouldUpdateList:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A2CF0DA-CE72-44EB-A5C3-BE8E2D77E2A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/ViewModels/HeadingListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getSelectedArticles(list:shouldUpdateList:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9A2CF0DA-CE72-44EB-A5C3-BE8E2D77E2A2 - dfa1c794d5d03dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediBankTest.HeadingListViewModel.getSelectedArticles(list: Swift.Array&lt;Swift.String&gt;, shouldUpdateList: Swift.Bool) -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "9A2CF0DA-CE72-44EB-A5C3-BE8E2D77E2A2 - dfa1c794d5d03dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediBankTest.HeadingListViewModel.getSelectedArticles(list: Swift.Array&lt;Swift.String&gt;, shouldUpdateList: Swift.Bool) -&gt; ()"
+                  moduleName = "MediBankTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashishviltoriya/Documents/XCode%20Projects/GithubRepositories/MediBankTest/MediBankTest/ViewModels/HeadingListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C4250CF-1E91-481E-A90D-8A864E9637C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediBankTest/ViewModels/HeadingListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getDataFromServer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
