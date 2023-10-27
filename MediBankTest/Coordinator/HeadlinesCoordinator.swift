@@ -34,6 +34,7 @@ extension HeadlinesCoordinator: HeadlinesViewControllerDelegate {
         
         let headLineDetailViewController = HeadLineDetailViewController()
         headLineDetailViewController.articleData = article
+        headLineDetailViewController.viewType = .headlines
         navigator.push(headLineDetailViewController, animated: true)
     }
     

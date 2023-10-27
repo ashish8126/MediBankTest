@@ -8,12 +8,19 @@
 import UIKit
 import WebKit
 
+enum ViewsType {
+    case headlines
+    case sources
+    case saved
+}
+
 class HeadLineDetailViewController: UIViewController {
 
     var articleData: ArticleEntity?
     var webView : WKWebView?
     var articleURL: String?
     var activityIndicator: UIActivityIndicatorView?
+    var viewType: ViewsType = .saved
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +30,10 @@ class HeadLineDetailViewController: UIViewController {
     }
     
     func setupRightBarButtonItem() {
-        let rightButton = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(handleClick))
-        self.navigationItem.rightBarButtonItem = rightButton
+        if viewType == .headlines {
+            let rightButton = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(handleClick))
+            self.navigationItem.rightBarButtonItem = rightButton
+        }
     }
     
     @objc func handleClick() {

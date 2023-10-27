@@ -13,7 +13,7 @@ protocol HeadlinesViewControllerDelegate: AnyObject {
 
 class HeadlinesListViewController: UITableViewController {
 
-    private let reuseIdentifier = "AuthorListCell"
+    private let reuseIdentifier = "HeadlinesListCell"
     
     var viewModel = HeadingListViewModel()
     var dataStorage = [ArticleEntity]()
@@ -21,10 +21,17 @@ class HeadlinesListViewController: UITableViewController {
     var shouldUpdateList = false
     weak var delegate: HeadlinesViewControllerDelegate?
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Headlines"
-        tableView.register(AuthorListCell.self, forCellReuseIdentifier: self.reuseIdentifier)
+        tableView.register(HeadlinesListCell.self, forCellReuseIdentifier: self.reuseIdentifier)
+        setupViewModel()
+        
+    }
+    
+    fileprivate func setupViewModel() {
         viewModel.articleData.bind { [weak self] articles in
             self?.dataStorage = articles
             DispatchQueue.main.async {
@@ -41,7 +48,6 @@ class HeadlinesListViewController: UITableViewController {
         if let viewController = self.tabBarController?.viewControllers?[1] as? UINavigationController, let sourceViewController = viewController.viewControllers.first as? SourcesListViewController { // Static added 1 because screens are constant
             sourceViewController.delegate = self
         }
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -60,14 +66,16 @@ class HeadlinesListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: self.reuseIdentifier, for: indexPath) as! AuthorListCell
         
-        let title = self.dataStorage[indexPath.row].name ?? ""
-        let description = self.dataStorage[indexPath.row].articleDescription ?? ""
-        let author = self.dataStorage[indexPath.row].author ?? ""
-        let thumbnailPictureURL = self.dataStorage[indexPath.row].imageURL ?? ""
-        cell.setupViewsData(title: title, description: description, author: author, thumbnail: thumbnailPictureURL)
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: self.reuseIdentifier, for: indexPath) as? HeadlinesListCell {
+            let title = self.dataStorage[indexPath.row].name ?? ""
+            let description = self.dataStorage[indexPath.row].articleDescription ?? ""
+            let author = self.dataStorage[indexPath.row].author ?? ""
+            let thumbnailPictureURL = self.dataStorage[indexPath.row].imageURL ?? ""
+            cell.setupViewsData(title: title, description: description, author: author, thumbnail: thumbnailPictureURL)
+            return cell
+        }
+        return UITableViewCell()
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

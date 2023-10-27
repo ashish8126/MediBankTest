@@ -23,7 +23,11 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         return self.savedListCoordinator.rootViewController
     }
     
-    
+    private enum ScreenTitle: String {
+        case headlines = "Headlines"
+        case sources = "Sources"
+        case saved = "Saved"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Headlines"
@@ -34,13 +38,13 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     private func setupTabs() {
-        let headlinesBarItem = UITabBarItem(title: "Headlines", image: UIImage(systemName: "heart.fill"), selectedImage: UIImage(systemName: "heart.fill"))
+        let headlinesBarItem = UITabBarItem(title: ScreenTitle.headlines.rawValue, image: UIImage(systemName: "heart.fill"), selectedImage: UIImage(systemName: "heart.fill"))
         headlinesViewController.tabBarItem = headlinesBarItem
         
-        let sourcesBarItem = UITabBarItem(title: "Sources", image: UIImage(systemName: "heart.fill"), selectedImage: UIImage(systemName: "heart.fill"))
+        let sourcesBarItem = UITabBarItem(title: ScreenTitle.sources.rawValue, image: UIImage(systemName: "heart.fill"), selectedImage: UIImage(systemName: "heart.fill"))
         sourcesListViewController.tabBarItem = sourcesBarItem
         
-        let savedBarItem = UITabBarItem(title: "Saved", image: UIImage(systemName: "heart.fill"), selectedImage: UIImage(systemName: "heart.fill"))
+        let savedBarItem = UITabBarItem(title: ScreenTitle.saved.rawValue, image: UIImage(systemName: "heart.fill"), selectedImage: UIImage(systemName: "heart.fill"))
         savedListViewController.tabBarItem = savedBarItem
         
         self.viewControllers = [headlinesViewController, sourcesListViewController, savedListViewController]

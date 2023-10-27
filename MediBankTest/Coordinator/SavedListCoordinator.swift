@@ -33,6 +33,7 @@ extension SavedListCoordinator: SavedListViewControllerDelegate {
     func didTapSavedList(article: ArticleEntity) {
         let headLineDetailViewController = HeadLineDetailViewController()
         headLineDetailViewController.articleData = article
+        headLineDetailViewController.viewType = .saved
         navigator.push(headLineDetailViewController, animated: true)
     }
 }

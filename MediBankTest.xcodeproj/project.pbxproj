@@ -25,7 +25,7 @@
 		194F177E2AE877750045FE10 /* HeadingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F177D2AE877750045FE10 /* HeadingListViewModel.swift */; };
 		194F17802AE877DB0045FE10 /* Boxing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F177F2AE877DB0045FE10 /* Boxing.swift */; };
 		194F17822AE892830045FE10 /* ArticlesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F17812AE892830045FE10 /* ArticlesData.swift */; };
-		194F17852AE8A76E0045FE10 /* AuthorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F17842AE8A76E0045FE10 /* AuthorListCell.swift */; };
+		194F17852AE8A76E0045FE10 /* HeadlinesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F17842AE8A76E0045FE10 /* HeadlinesListCell.swift */; };
 		194F178C2AE8D20C0045FE10 /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F178B2AE8D20C0045FE10 /* LazyImageView.swift */; };
 		194F178E2AE8DC850045FE10 /* HeadLineDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F178D2AE8DC850045FE10 /* HeadLineDetailViewController.swift */; };
 		194F17932AE8EF350045FE10 /* SavedArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194F17922AE8EF350045FE10 /* SavedArticleViewModel.swift */; };
@@ -83,7 +83,7 @@
 		194F177D2AE877750045FE10 /* HeadingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingListViewModel.swift; sourceTree = "<group>"; };
 		194F177F2AE877DB0045FE10 /* Boxing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boxing.swift; sourceTree = "<group>"; };
 		194F17812AE892830045FE10 /* ArticlesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesData.swift; sourceTree = "<group>"; };
-		194F17842AE8A76E0045FE10 /* AuthorListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorListCell.swift; sourceTree = "<group>"; };
+		194F17842AE8A76E0045FE10 /* HeadlinesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesListCell.swift; sourceTree = "<group>"; };
 		194F178B2AE8D20C0045FE10 /* LazyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageView.swift; sourceTree = "<group>"; };
 		194F178D2AE8DC850045FE10 /* HeadLineDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadLineDetailViewController.swift; sourceTree = "<group>"; };
 		194F17922AE8EF350045FE10 /* SavedArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticleViewModel.swift; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 		194F17832AE8A7390045FE10 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				194F17842AE8A76E0045FE10 /* AuthorListCell.swift */,
+				194F17842AE8A76E0045FE10 /* HeadlinesListCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -545,7 +545,7 @@
 				194F178E2AE8DC850045FE10 /* HeadLineDetailViewController.swift in Sources */,
 				194F17802AE877DB0045FE10 /* Boxing.swift in Sources */,
 				199174D12AEA44AD00CB6BBB /* HeadlinesListData.swift in Sources */,
-				194F17852AE8A76E0045FE10 /* AuthorListCell.swift in Sources */,
+				194F17852AE8A76E0045FE10 /* HeadlinesListCell.swift in Sources */,
 				194F17822AE892830045FE10 /* ArticlesData.swift in Sources */,
 				194F17492AE8672D0045FE10 /* MediBankTest.xcdatamodeld in Sources */,
 				194F17432AE8672D0045FE10 /* TabBarViewController.swift in Sources */,

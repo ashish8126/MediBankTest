@@ -15,8 +15,6 @@ public enum CustomError: Error {
 
 extension URLSession {
     
-    
-    
     func request<T: Codable>(url: URL?, 
                              expecting: T.Type,
                              completion: @escaping(Result<T, Error>) -> Void) {

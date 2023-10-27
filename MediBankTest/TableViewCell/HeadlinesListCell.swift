@@ -1,5 +1,5 @@
 //
-//  AuthorListCell.swift
+//  HeadlinesListCell.swift
 //  MediBankTest
 //
 //  Created by Ashish Viltoriya on 25/10/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AuthorListCell: UITableViewCell {
+class HeadlinesListCell: UITableViewCell {
 
     private let titleLabel: UILabel = {
         let label = UILabel()

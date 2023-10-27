@@ -15,13 +15,14 @@ class SavedListViewController: UITableViewController {
 
     var viewModel = SavedArticleViewModel()
     var savedArticlesData = [ArticleEntity]()
-    private let reuseIdentifier = "AuthorListCell"
+    private let reuseIdentifier = "HeadlinesListCell"
     weak var delegate: SavedListViewControllerDelegate?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Saved"
-        tableView.register(AuthorListCell.self, forCellReuseIdentifier: "AuthorListCell")
+        tableView.register(HeadlinesListCell.self, forCellReuseIdentifier: self.reuseIdentifier)
         viewModel.savedArticles.bind { [weak self] articleData in
              self?.savedArticlesData = articleData
             DispatchQueue.main.async {
@@ -46,21 +47,19 @@ class SavedListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath) as! AuthorListCell
-        let title = self.savedArticlesData[indexPath.row].name ?? ""
-        let description = self.savedArticlesData[indexPath.row].articleDescription ?? ""
-        let author = self.savedArticlesData[indexPath.row].author ?? ""
-        let thumbnailPictureURL = self.savedArticlesData[indexPath.row].imageURL ?? ""
-        cell.setupViewsData(title: title, description: description, author: author, thumbnail: thumbnailPictureURL)
-        return cell
+        if  let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath) as? HeadlinesListCell {
+            let title = self.savedArticlesData[indexPath.row].name ?? ""
+            let description = self.savedArticlesData[indexPath.row].articleDescription ?? ""
+            let author = self.savedArticlesData[indexPath.row].author ?? ""
+            let thumbnailPictureURL = self.savedArticlesData[indexPath.row].imageURL ?? ""
+            cell.setupViewsData(title: title, description: description, author: author, thumbnail: thumbnailPictureURL)
+            return cell
+        }
+        return UITableViewCell()
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-//        let detailsViewController = HeadLineDetailViewController()
-//        detailsViewController.articleData = self.savedArticlesData[indexPath.row]
-//        self.navigationController?.pushViewController(detailsViewController, animated: true)
-        
         delegate?.didTapSavedList(article: self.savedArticlesData[indexPath.row])
     }
      
